@@ -1,0 +1,137 @@
+a{
+  color: #11999E
+}
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", fantasy;
+}
+
+hr{
+  color: silver;
+  width: 10%;
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+
+}
+
+h1{
+  font-family: "Sacramento", fantsay;
+  font-size:4.372rem;
+  line-height: 1;
+  margin-top: 50px auto, 0, auto;
+
+}
+
+h2{
+  font-family: Amita ;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 1% auto 1% auto;
+}
+h3{
+  font-family: "Cormorant";
+  color: #11999E
+}
+
+.intro{
+  width: 40%;
+  margin: 0 auto 2%;
+}
+.top-container{
+  background-color: lightsteelblue;
+  color: ivory;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+  padding: 9%;
+}
+
+.middle-container{
+  background-color: #d0d9e0;
+}
+
+.bottom-container{
+  background-color: aliceblue;
+  padding: 3%;
+}
+
+.pro{
+  text-decoration: underline;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 20%;
+  top: 50px;
+
+
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+.profile-picture{
+  width: 15%;
+  margin-top: 6%;
+}
+
+.logo{
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+
+}
+.webdev{
+  float:right;
+}
+
+.cooking{
+  float:right;
+}
+/* .piano-lesson{
+  clear:left;
+} */
+
+.skill-row{
+  width: 50%;
+  margin: 6% auto 6% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+}
+.linkr:visited{
+  color: purple;
+}
+.link:active{
+  color: hotpink;
+}
+.link:hover{
+  color:red;
+}
+
+.btn{
+  font-family: sans-serif;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom,#11cdd4, #11999E);
+  padding: 0.7%;
+  line-height: 2.5;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.btn:hover{
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3ce3cb, #2bc4ab)
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+}
